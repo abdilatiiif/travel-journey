@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  font-family: "inter", "sans-serif";
 }
 
 header {
@@ -21,4 +22,32 @@ header > h1 {
   font-size: 0.9rem;
   font-weight: 500;
   font-family: Inter;
+}
+
+.header--globe {
+  width: 30px;
+  background: white;
+  border-radius: 50%;
+}
+
+.entry--container {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry--img {
+  width: 8rem;
+  border-radius: 0.75rem;
+}
+
+.entry--info {
+  max-width: 37.5rem;
+  margin-left: 1.25rem;
+}
+
+.entry--marker {
+  width: 20px;
 }
