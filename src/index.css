@@ -39,7 +39,8 @@ header > h1 {
 }
 
 .entry--img {
-  width: 8rem;
+  height: 250px;
+  width: 200px;
   border-radius: 0.75rem;
 }
 
