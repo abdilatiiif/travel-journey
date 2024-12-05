@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
+
 export default function Entry(props) {
-  console.log(props);
   return (
     <section className="entry--container">
       <img className="entry--img" src={props.img.src} alt={props.img.alt} />
