@@ -10,11 +10,15 @@ function App() {
     return (
       <Entry
         key={c.id}
-        img={c.img.src}
+        img={{
+          src: c.img.src,
+          alt: c.img.alt,
+        }}
         city={c.title}
         country={c.country}
-        url={c.url}
-        date={c.date}
+        url={c.googleMapsLink}
+        alt={c.img.alt}
+        date={c.dates}
         description={c.text}
       />
     );
