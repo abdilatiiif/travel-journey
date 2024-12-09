@@ -15,11 +15,14 @@ export default function Entry(props) {
               alt="marker"
             />{" "}
           </span>{" "}
-          {props.country} <a href={props.url}>View on Google Maps</a>{" "}
+          {props.country}{" "}
+          <a href={props.url} target="_blank">
+            View on Google Maps
+          </a>{" "}
         </p>
-        <h2>{props.city}</h2>
+        <h2>{props.title}</h2>
         <strong>{props.date}</strong>
-        <p>{props.description}</p>
+        <p>{props.text}</p>
       </div>
     </section>
   );
